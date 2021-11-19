@@ -1,5 +1,4 @@
-import moment from "moment";
-import { Url } from "../models/url-shortener.model";
+import { ShortUrl } from "../models/url-shortener.model";
 /**
  * @description GenericRepository
  * @class GenericRepository
@@ -41,48 +40,7 @@ async function create(Model, options) {
   }
 }
 
-/**
- * @description Fetch all documents
- * @param {object} Model
- * @param {object} query
- * @param {object} options Query options
- * @returns {Document} Resolves paginated array of documents.
- */
 
-async function GetAllDocs(Model, options) {
-  try {
-    const documents = await Model.find({}, null, {
-      skip: options.page * options.limit,
-    })
-      .limit(options.limit)
-      .sort("-createdAt")
-      .exec();
-
-    return documents;
-  } catch (error) {
-    throw error;
-  }
-}
-
-/**
- * @description update a document
- * @param {object} Model
- * @param {object} query
- * @param {object} options Query options
- * @returns {Document} Updates a particular Document
- */
-
-async function update(Model, id, options) {
-  try {
-    const documents = await Model.findOneAndUpdate({ _id: id }, options, {
-      new: true,
-      runValidators: true,
-    });
-    return documents;
-  } catch (error) {
-    throw error;
-  }
-}
 
 
 /**
@@ -111,9 +69,10 @@ async function findById(Model, id) {
  * @returns {Document} Gets a particular Document
  */
 
- async function findOriginalUrl(Model, url) {
+ async function findUrl({originalUrl, urlId}) {
   try {
-    const documents = await Model.findOne({originalUrl: url }).exec();
+    const documents = await ShortUrl.findOne({
+      $or: [{originalUrl }, {urlId}]}).exec();
     return documents;
   } catch (error) {
     throw error;
@@ -121,9 +80,7 @@ async function findById(Model, id) {
 }
 export default {
   create,
-  update,
   deleteRecord,
-  GetAllDocs,
   findById,
-  findOriginalUrl
+  findUrl
 };

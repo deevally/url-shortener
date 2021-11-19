@@ -49,3 +49,241 @@
 {"label":"url-shortener","level":"info","message":"Worker 40052 started","timestamp":"2021-11-19T10:25:48.861Z"}
 {"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:25:48.877Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:25:48.902Z"}
+{"label":"url-shortener","level":"info","message":"Worker 65492 started","timestamp":"2021-11-19T10:28:08.249Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:28:08.264Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:28:08.286Z"}
+{"label":"url-shortener","level":"info","message":"Worker 66920 started","timestamp":"2021-11-19T10:28:19.475Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:28:19.490Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:28:19.517Z"}
+{"label":"url-shortener","level":"info","message":"Worker 41276 started","timestamp":"2021-11-19T10:28:42.756Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:28:42.770Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:28:42.796Z"}
+{"label":"url-shortener","level":"info","message":"Worker 44140 started","timestamp":"2021-11-19T10:28:57.545Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:28:57.559Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:28:57.595Z"}
+{"label":"url-shortener","level":"info","message":"Worker 23516 started","timestamp":"2021-11-19T10:31:34.276Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:31:34.283Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:31:34.321Z"}
+{"label":"url-shortener","level":"info","message":"Worker 73416 started","timestamp":"2021-11-19T10:31:52.406Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:31:52.431Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:31:52.465Z"}
+{"label":"url-shortener","level":"info","message":"Worker 40972 started","timestamp":"2021-11-19T10:32:11.069Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:32:11.087Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:32:11.119Z"}
+{"label":"url-shortener","level":"info","message":"Worker 43260 started","timestamp":"2021-11-19T10:32:57.985Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:32:58.005Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:32:58.030Z"}
+{"label":"url-shortener","level":"info","message":"Worker 23320 started","timestamp":"2021-11-19T10:34:02.143Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:34:02.157Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:34:02.178Z"}
+{"label":"url-shortener","level":"info","message":"Worker 67596 started","timestamp":"2021-11-19T10:34:45.394Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:34:45.408Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:34:45.429Z"}
+{"label":"url-shortener","level":"info","message":"Worker 72776 started","timestamp":"2021-11-19T10:36:34.449Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:36:34.465Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:36:34.502Z"}
+{"label":"url-shortener","level":"info","message":"Worker 38368 started","timestamp":"2021-11-19T10:37:22.044Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:37:22.062Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:37:22.090Z"}
+{"label":"url-shortener","level":"info","message":"Worker 73968 started","timestamp":"2021-11-19T10:37:44.855Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:37:44.883Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:37:44.951Z"}
+{"label":"url-shortener","level":"info","message":"Worker 29820 started","timestamp":"2021-11-19T10:38:16.655Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:38:16.672Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:38:16.702Z"}
+{"label":"url-shortener","level":"info","message":"Worker 9080 started","timestamp":"2021-11-19T10:39:05.173Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:39:05.190Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:39:05.219Z"}
+{"label":"url-shortener","level":"info","message":"Worker 70368 started","timestamp":"2021-11-19T10:39:22.459Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:39:22.479Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:39:22.514Z"}
+{"label":"url-shortener","level":"info","message":"Worker 14656 started","timestamp":"2021-11-19T10:39:29.448Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:39:29.463Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:39:29.491Z"}
+{"label":"url-shortener","level":"info","message":"Worker 16924 started","timestamp":"2021-11-19T10:39:59.365Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:39:59.384Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:39:59.413Z"}
+{"label":"url-shortener","level":"info","message":"Worker 54244 started","timestamp":"2021-11-19T10:40:14.826Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:40:14.845Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:40:14.889Z"}
+{"label":"url-shortener","level":"info","message":"Worker 34832 started","timestamp":"2021-11-19T10:40:46.001Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:40:46.020Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:40:46.056Z"}
+{"label":"url-shortener","level":"info","message":"Worker 49968 started","timestamp":"2021-11-19T10:41:04.916Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:41:04.933Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:41:04.961Z"}
+{"label":"url-shortener","level":"info","message":"Worker 56528 started","timestamp":"2021-11-19T10:41:19.844Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:41:19.859Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:41:19.888Z"}
+{"label":"url-shortener","level":"info","message":"Worker 28580 started","timestamp":"2021-11-19T10:41:54.819Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:41:54.841Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:41:54.873Z"}
+{"label":"url-shortener","level":"info","message":"Worker 59224 started","timestamp":"2021-11-19T10:42:13.060Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:42:13.100Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:42:13.153Z"}
+{"label":"url-shortener","level":"info","message":"Worker 75388 started","timestamp":"2021-11-19T10:42:25.269Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:42:25.288Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:42:25.329Z"}
+{"label":"url-shortener","level":"info","message":"Worker 77016 started","timestamp":"2021-11-19T10:43:02.203Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:43:02.243Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:43:02.349Z"}
+{"label":"url-shortener","level":"info","message":"Worker 28968 started","timestamp":"2021-11-19T10:43:59.442Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:43:59.480Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:43:59.568Z"}
+{"label":"url-shortener","level":"info","message":"Worker 76944 started","timestamp":"2021-11-19T10:44:10.300Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:44:10.319Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:44:10.355Z"}
+{"label":"url-shortener","level":"info","message":"Worker 56316 started","timestamp":"2021-11-19T10:45:08.223Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:45:08.248Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:45:08.307Z"}
+{"label":"url-shortener","level":"info","message":"Worker 72716 started","timestamp":"2021-11-19T10:45:49.557Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:45:49.582Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:45:49.628Z"}
+{"label":"url-shortener","level":"info","message":"Worker 69588 started","timestamp":"2021-11-19T10:46:38.551Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:46:38.568Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:46:38.602Z"}
+{"label":"url-shortener","level":"info","message":"Worker 9464 started","timestamp":"2021-11-19T10:47:08.857Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:47:08.889Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:47:08.929Z"}
+{"label":"url-shortener","level":"info","message":"Worker 77712 started","timestamp":"2021-11-19T10:48:11.707Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:48:11.738Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:48:11.797Z"}
+{"label":"url-shortener","level":"info","message":"Worker 34556 started","timestamp":"2021-11-19T10:48:34.476Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:48:34.494Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:48:34.520Z"}
+{"label":"url-shortener","level":"info","message":"Worker 28092 started","timestamp":"2021-11-19T10:49:04.190Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:49:04.211Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:49:04.244Z"}
+{"label":"url-shortener","level":"info","message":"Worker 35464 started","timestamp":"2021-11-19T10:49:13.322Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:49:13.343Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:49:13.397Z"}
+{"label":"url-shortener","level":"info","message":"Worker 70292 started","timestamp":"2021-11-19T10:52:08.773Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:52:08.788Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:52:08.821Z"}
+{"label":"url-shortener","level":"info","message":"Worker 76356 started","timestamp":"2021-11-19T10:53:23.000Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:53:23.016Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:53:23.053Z"}
+{"label":"url-shortener","level":"info","message":"Worker 49532 started","timestamp":"2021-11-19T10:54:11.196Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:54:11.215Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:54:11.249Z"}
+{"label":"url-shortener","level":"info","message":"Worker 30656 started","timestamp":"2021-11-19T10:54:23.513Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:54:23.530Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:54:23.563Z"}
+{"label":"url-shortener","level":"info","message":"Worker 75860 started","timestamp":"2021-11-19T10:57:32.659Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:57:32.675Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:57:32.706Z"}
+{"label":"url-shortener","level":"info","message":"Worker 47004 started","timestamp":"2021-11-19T10:59:19.115Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:59:19.131Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:59:19.158Z"}
+{"label":"url-shortener","level":"info","message":"Worker 47272 started","timestamp":"2021-11-19T10:59:49.000Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T10:59:49.024Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T10:59:49.057Z"}
+{"label":"url-shortener","level":"info","message":"Worker 14548 started","timestamp":"2021-11-19T11:01:03.698Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:01:03.726Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:01:03.764Z"}
+{"label":"url-shortener","level":"info","message":"Worker 53660 started","timestamp":"2021-11-19T11:02:10.234Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:02:10.255Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:02:10.288Z"}
+{"label":"url-shortener","level":"info","message":"Worker 17952 started","timestamp":"2021-11-19T11:02:43.244Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:02:43.269Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:02:43.300Z"}
+{"label":"url-shortener","level":"info","message":"Worker 68364 started","timestamp":"2021-11-19T11:03:15.425Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:03:15.450Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:03:15.495Z"}
+{"label":"url-shortener","level":"info","message":"Worker 55172 started","timestamp":"2021-11-19T11:05:03.749Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:05:03.768Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:05:03.797Z"}
+{"label":"url-shortener","level":"info","message":"Worker 27056 started","timestamp":"2021-11-19T11:05:46.362Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T11:05:46.379Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:05:46.411Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:19:29.055Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:19:38.990Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:20:17.778Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:20:35.232Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T11:21:19.760Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:06:22.830Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:06:48.853Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:07:17.466Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:07:56.513Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:09:16.690Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:10:09.368Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:11:01.830Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:12:43.772Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:13:26.280Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:13:57.931Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:14:50.914Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:15:02.633Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:15:13.812Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:15:25.386Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:16:00.150Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:18:26.464Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:20:44.373Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:33:23.098Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:38:27.244Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:38:43.208Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:39:20.035Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:41:41.089Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:42:14.088Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:44:03.709Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:44:22.192Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T12:52:24.661Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:10:35.979Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:11:19.294Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:11:44.003Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:12:08.045Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:12:26.727Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:14:08.592Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:15:26.709Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:15:38.694Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:15:51.287Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:16:02.469Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:20:33.923Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:20:49.356Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:21:24.312Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:21:41.952Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:22:23.937Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:23:01.614Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:31:58.526Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:32:09.738Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:32:38.272Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:32:58.455Z"}
+{"label":"url-shortener","level":"info","message":"Worker 35788 started","timestamp":"2021-11-19T13:50:32.442Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T13:50:32.481Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:50:32.545Z"}
+{"label":"url-shortener","level":"info","message":"Worker 45972 started","timestamp":"2021-11-19T13:53:16.535Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T13:53:16.567Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:53:16.621Z"}
+{"label":"url-shortener","level":"info","message":"Worker 37192 started","timestamp":"2021-11-19T13:53:38.589Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T13:53:38.597Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:53:38.654Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:54:30.701Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:56:21.334Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:56:57.073Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:57:29.186Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T13:57:48.354Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:04:30.765Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:04:45.121Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:05:10.380Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:05:24.547Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:06:23.457Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:06:58.387Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:14:12.582Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:16:47.835Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:40:30.641Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:44:48.946Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:46:12.203Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:51:28.520Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:51:38.614Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:54:41.550Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:55:03.761Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:55:28.217Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:55:44.321Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:56:36.374Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:57:16.855Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:58:09.619Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:58:23.819Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:58:39.890Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T14:59:18.311Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T15:00:13.415Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T15:05:24.815Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T15:07:19.290Z"}

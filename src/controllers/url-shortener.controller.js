@@ -1,29 +1,22 @@
 import asyncHandler from "../middlewares/async";
 import { StatusMessages, ResponseCode } from "../utils/constants";
 
-
 /**
  * @description Url controller
  * @class UrlController
  */
 
-
-
 /**
- * @description 
+ * @description Get Original url
  * @returns {boolean}
  */
 
 const GetOriginalUrl = asyncHandler(async (req, res, next) => {
-  const { code } = req.query;
+  const { urlId } = req.params;
   try {
-    const getLongUrL = await req.service.Url.AuthCallback(code);
-
-  
-
-    // Redirect back to the client side. [http://localhost:3000/] url can be changed to any other url used by the client side. 
-    res.redirect("http://localhost:3000/");
-  
+    const getLongUrL = await req.service.url.GetUrl(urlId);
+    // Redirect back to the original URL
+    res.redirect(getLongUrL);
   } catch (error) {
     next(error);
   }
@@ -35,12 +28,11 @@ const GetOriginalUrl = asyncHandler(async (req, res, next) => {
  */
 
 const ShortenUrl = asyncHandler(async (req, res, next) => {
-  
-const { originalUrl} = req.body
+  const { originalUrl } = req.body;
   try {
     const result = await req.service.url.ShortenUrl(originalUrl);
 
-    return res.status(ResponseCode.OK).json({
+    return res.status(ResponseCode.CREATED).json({
       data: result,
       success: true,
     });
@@ -49,36 +41,28 @@ const { originalUrl} = req.body
   }
 });
 
-
-
-
-
-
 /**
  * @description Delete Url
  * @returns {boolean} true
  */
 
- const DeleteUrl= asyncHandler(async (req, res, next) => {
+const DeleteUrl = asyncHandler(async (req, res, next) => {
+  const { urlId } = req.params;
+  try {
+    const result = await req.service.url.DeleteUrl(urlId);
 
-  const {UrlId} = req.params;
- try {
-   const result = await req.service.Url.DeleteUrl(UrlId);
-
-   if(result === true){
-   return res.status(ResponseCode.OK).json({
-     success: true,
-   });
- }
- } catch (error) {
-   next(error);
- }
+    if (result === true) {
+      return res.status(ResponseCode.OK).json({
+        success: true,
+      });
+    }
+  } catch (error) {
+    next(error);
+  }
 });
-
-
 
 export default {
   ShortenUrl,
   GetOriginalUrl,
-  DeleteUrl
+  DeleteUrl,
 };

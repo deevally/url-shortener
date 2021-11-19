@@ -1,7 +1,7 @@
 import ErrorResponse from "../utils/error.response";
 import GenericRepository from "../repository/generic.repository";
 import validUrl from "valid-url";
-import shortid from "shortid";
+import { nanoid } from 'nanoid'
 import { StatusMessages, ResponseCode } from "../utils/constants";
 import { ShortUrl } from "../models/url-shortener.model";
 import { BASE_URL } from "../config/config";
@@ -25,12 +25,13 @@ async function ShortenUrl(originalUrl) {
   }
 
   if (validUrl.isUri(originalUrl)) {
-    const urlCode = shortid.generate();
 
-    const findUrl = await GenericRepository.findOriginalUrl(
-      ShortUrl,
-      originalUrl
-    );
+    // const urlCode = shortid.generate();
+    const urlCode = nanoid(10);
+    const originalUrlLink = {
+      originalUrl,
+    };
+    const findUrl = await GenericRepository.findUrl(originalUrlLink);
 
     if (findUrl) {
       return findUrl;
@@ -47,7 +48,6 @@ async function ShortenUrl(originalUrl) {
       ShortUrl,
       options
     );
-
     return createUrlShortener;
   } else {
     throw new ErrorResponse(
@@ -56,23 +56,45 @@ async function ShortenUrl(originalUrl) {
     );
   }
 }
+/**
+ * @description Get origina Url 
+ * @returns {boolean} true
+ */
+
+async function GetUrl(urlId) {
+  const urlCode  = {
+    urlId,
+  }
+  const url = await GenericRepository.findUrl(urlCode);
+
+  if (!url)
+    throw new ErrorResponse(
+      StatusMessages.URL_NOT_FOUND,
+      ResponseCode.NOT_FOUND
+    );
+  return url.originalUrl;
+}
 
 /**
  * @description Delete Url Service
  * @returns {boolean} true
  */
 
-async function DeleteUrl(UrlId) {
-  const Url = await GenericRepository.findById(Url, UrlId);
-  if (!Url)
+async function DeleteUrl(urlId) {
+  const urlCode  = {
+    urlId,
+  }
+  const url = await GenericRepository.findUrl(urlCode);
+  if (!url)
     throw new ErrorResponse(
-      StatusMessages.Url_NOT_FOUND,
+      StatusMessages.URL_NOT_FOUND,
       ResponseCode.NOT_FOUND
     );
-  const deleteUrl = await GenericRepository.deleteRecord(Url, UrlId);
+  const deleteUrl = await GenericRepository.deleteRecord(ShortUrl, url.id);
   if (deleteUrl) return true;
 }
 export default {
   ShortenUrl,
   DeleteUrl,
+  GetUrl
 };

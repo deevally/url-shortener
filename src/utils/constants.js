@@ -9,6 +9,7 @@ const ResponseCode = {
 const StatusMessages = {
   INVALID_BASE_URL: 'Invalid base url',
   INVALID_URL: 'Invalid url',
+  URL_NOT_FOUND: 'Url not found',
 };
 
 
