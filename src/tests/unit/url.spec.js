@@ -32,7 +32,7 @@ afterEach((done) => {
 
 describe("URL SHORTENER CONTROLLER", () => {
   test("should return the base api", async () => {
-    const response = await request.get("");
+    const response = await request.get("/");
     expect(response.body.Message).toEqual("Welcome to QU-Url Shortener");
     expect(response.statusCode).toBe(200);
   });
@@ -67,7 +67,7 @@ describe("URL SHORTENER CONTROLLER", () => {
     };
 
     const url = await ShortUrl.create(options);
-    await request.delete(`/api/v1/url/${url.id}`);
+    await request.delete(`/${url.id}`);
     const findurl = await ShortUrl.findOne({ urlId: url.id });
     expect(findurl).toBeFalsy();
   });
@@ -85,7 +85,7 @@ describe("URL SHORTENER CONTROLLER", () => {
     };
 
     const url = await ShortUrl.create(options);
-    const longUrl = await request.get(`/api/v1/orginalurl/${url.urlId}`);
+    const longUrl = await request.get(`/${url.urlId}`);
     expect(longUrl).toBeTruthy();
     expect(302);
   });
