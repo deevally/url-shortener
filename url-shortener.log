@@ -343,3 +343,6 @@
 {"label":"url-shortener","level":"info","message":"Worker 71396 started","timestamp":"2021-11-19T17:20:46.307Z"}
 {"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T17:20:46.326Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T17:20:46.353Z"}
+{"label":"url-shortener","level":"info","message":"Worker 18396 started","timestamp":"2021-11-19T17:22:56.341Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T17:22:56.357Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T17:22:56.380Z"}
