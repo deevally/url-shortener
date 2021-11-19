@@ -15,6 +15,7 @@ const GetOriginalUrl = asyncHandler(async (req, res, next) => {
   const { urlId } = req.params;
   try {
     const getLongUrL = await req.service.url.GetUrl(urlId);
+    
     // Redirect back to the original URL
     res.redirect(getLongUrL);
   } catch (error) {

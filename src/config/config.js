@@ -17,4 +17,6 @@ module.exports = {
   LOG_LEVEL: process.env.LOG_LEVEL,
   LOG_FILE: process.env.LOG_FILE,
   BASE_URL: process.env.BASE_URL,
+  BASE_URL_TEST:process.env.BASE_URL_TEST,
+  BASE_URL_PROD:process.env.BASE_URL_PROD,
 };

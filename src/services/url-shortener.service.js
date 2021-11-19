@@ -4,20 +4,32 @@ import validUrl from "valid-url";
 import { nanoid } from 'nanoid'
 import { StatusMessages, ResponseCode } from "../utils/constants";
 import { ShortUrl } from "../models/url-shortener.model";
-import { BASE_URL } from "../config/config";
+import { NODE_ENV, BASE_URL_TEST,BASE_URL_PROD,BASE_URL } from "../config/config";
 
 /**
  * @description Url Service
  * @class UrlService
  */
 
+
 /**
  * @description Shorten Url
  * @returns {Object} Url
  */
 
+
+
 async function ShortenUrl(originalUrl) {
-  if (!validUrl.isUri(BASE_URL)) {
+  let url;
+  if (NODE_ENV === "development") {
+    url = BASE_URL;
+  } else if (NODE_ENV === "test") {
+    url = BASE_URL_TEST;
+  } else if (NODE_ENV === "production") {
+    url = BASE_URL_PROD;
+  }
+
+  if (!validUrl.isUri(BASE_URL) || !validUrl.isUri(BASE_URL_TEST) || !validUrl.isUri(BASE_URL_PROD)) {
     throw new ErrorResponse(
       StatusMessages.INVALID_BASE_URL,
       ResponseCode.BAD_REQUEST

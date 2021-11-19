@@ -94,14 +94,48 @@ describe("URL SHORTENER CONTROLLER", () => {
 describe("URL SHORTENER SERVICE", () => {
 test("Shorten Url service", async () => {
 
+   
+        const originalUrl= 
+          "https://www.amazon.com/Samsung-Unlocked-Fingerprint-Recognition-Long-Lasting/dp/B082XYGR2C/ref=sr_1_12?keywords=Apple+iPhone+11+Pro&qid=1637315434&sr=8-12";
+    
+     const urlService = await UrlService.ShortenUrl(originalUrl);
+    expect(urlService).toBeTruthy();
+    expect(urlService).toHaveProperty("shortenedUrl");
+    expect(urlService).toHaveProperty("urlId");
+    expect(urlService).toHaveProperty("originalUrl");
+});
+
+test("get url by urlId", async()=>{
+    const urlCode = nanoid(10);
+
+    const shortUrl = `${BASE_URL}/${urlCode}`;
     const options = {
         originalUrl:
           "https://www.amazon.com/Samsung-Unlocked-Fingerprint-Recognition-Long-Lasting/dp/B082XYGR2C/ref=sr_1_12?keywords=Apple+iPhone+11+Pro&qid=1637315434&sr=8-12",
+        shortenedUrl: shortUrl,
+        urlId: urlCode,
       };
+  
+      const url = await ShortUrl.create(options);
+        const response = await UrlService.GetUrl(url.urlId);
+        expect(response).toBe(url.originalUrl);
+    })
 
-      const urlService = await UrlService.ShortenUrl(options);
+    
+test("delete url by urlId", async()=>{
+    const urlCode = nanoid(10);
 
-      expect(urlService.originalUrl).toBe(options.originalUrl);
-    expect(urlService).toBeTruthy();
-});
+    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const options = {
+        originalUrl:
+          "https://www.amazon.com/Samsung-Unlocked-Fingerprint-Recognition-Long-Lasting/dp/B082XYGR2C/ref=sr_1_12?keywords=Apple+iPhone+11+Pro&qid=1637315434&sr=8-12",
+        shortenedUrl: shortUrl,
+        urlId: urlCode,
+      };
+  
+      const url = await ShortUrl.create(options);
+        const response = await UrlService.DeleteUrl(url.urlId);
+        expect(response).toBeTruthy();
+
+    })
 });
