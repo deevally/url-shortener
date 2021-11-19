@@ -28,8 +28,7 @@ async function ShortenUrl(originalUrl) {
   } else if (NODE_ENV === "production") {
     url = BASE_URL_PROD;
   }
-
-  if (!validUrl.isUri(BASE_URL) || !validUrl.isUri(BASE_URL_TEST) || !validUrl.isUri(BASE_URL_PROD)) {
+  if (!validUrl.isUri(url) || !validUrl.isUri(url) || !validUrl.isUri(url)) {
     throw new ErrorResponse(
       StatusMessages.INVALID_BASE_URL,
       ResponseCode.BAD_REQUEST
@@ -49,7 +48,7 @@ async function ShortenUrl(originalUrl) {
       return findUrl;
     }
 
-    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const shortUrl = `${url}/${urlCode}`;
     const options = {
       originalUrl,
       shortenedUrl: shortUrl,

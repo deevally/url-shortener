@@ -361,3 +361,24 @@
 {"label":"url-shortener","level":"info","message":"Worker 71024 started","timestamp":"2021-11-19T17:56:31.601Z"}
 {"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-19T17:56:31.620Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T17:56:31.641Z"}
+{"label":"url-shortener","level":"info","message":"Worker 63744 started","timestamp":"2021-11-19T18:04:18.159Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-11-19T18:04:18.177Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-02.w2fdq.mongodb.net","timestamp":"2021-11-19T18:04:20.710Z"}
+{"label":"url-shortener","level":"info","message":"Worker 28972 started","timestamp":"2021-11-19T18:05:09.533Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-11-19T18:05:09.551Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-11-19T18:05:22.224Z"}
+{"label":"url-shortener","level":"info","message":"Worker 51480 started","timestamp":"2021-11-19T18:06:42.251Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-11-19T18:06:42.267Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-11-19T18:06:44.777Z"}
+{"label":"url-shortener","level":"info","message":"Worker 49676 started","timestamp":"2021-11-19T18:07:47.306Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-11-19T18:07:47.325Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-11-19T18:07:59.887Z"}
+{"label":"url-shortener","level":"info","message":"Worker 59400 started","timestamp":"2021-11-19T18:08:14.737Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-11-19T18:08:14.754Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-01.w2fdq.mongodb.net","timestamp":"2021-11-19T18:08:16.871Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:17:26.709Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:17:40.973Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:18:01.851Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:18:17.273Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:18:57.270Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-19T18:19:10.159Z"}

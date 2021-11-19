@@ -5,7 +5,7 @@ import { nanoid } from "nanoid";
 import { ShortUrl } from "../../models/url-shortener.model";
 import { MONGO_DB_URL_TEST } from "../../config/config";
 import UrlService from "../../services/url-shortener.service";
-import { BASE_URL } from "../../config/config";
+import { BASE_URL_TEST } from "../../config/config";
 
 const request = supertest(app);
 
@@ -32,7 +32,7 @@ afterEach((done) => {
 
 describe("URL SHORTENER CONTROLLER", () => {
   test("should return the base api", async () => {
-    const response = await request.get("/api/v1");
+    const response = await request.get("");
     expect(response.body.Message).toEqual("Welcome to QU-Url Shortener");
     expect(response.statusCode).toBe(200);
   });
@@ -44,7 +44,7 @@ describe("URL SHORTENER CONTROLLER", () => {
     };
 
     //check the response
-    const response = await request.post("/api/v1/shorten-url").send(options);
+    const response = await request.post("/shorten-url").send(options);
     expect(response.body.data._id).toBeTruthy();
     expect(response.statusCode).toBe(201);
 
@@ -57,7 +57,7 @@ describe("URL SHORTENER CONTROLLER", () => {
   test("delete url", async () => {
     const urlCode = nanoid(10);
 
-    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const shortUrl = `${BASE_URL_TEST}/${urlCode}`;
 
     const options = {
       originalUrl:
@@ -75,7 +75,7 @@ describe("URL SHORTENER CONTROLLER", () => {
   test("get long url", async () => {
     const urlCode = nanoid(10);
 
-    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const shortUrl = `${BASE_URL_TEST}/${urlCode}`;
 
     const options = {
       originalUrl:
@@ -108,7 +108,7 @@ test("Shorten Url service", async () => {
 test("get url by urlId", async()=>{
     const urlCode = nanoid(10);
 
-    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const shortUrl = `${BASE_URL_TEST}/${urlCode}`;
     const options = {
         originalUrl:
           "https://www.amazon.com/Samsung-Unlocked-Fingerprint-Recognition-Long-Lasting/dp/B082XYGR2C/ref=sr_1_12?keywords=Apple+iPhone+11+Pro&qid=1637315434&sr=8-12",
@@ -125,7 +125,7 @@ test("get url by urlId", async()=>{
 test("delete url by urlId", async()=>{
     const urlCode = nanoid(10);
 
-    const shortUrl = `${BASE_URL}/${urlCode}`;
+    const shortUrl = `${BASE_URL_TEST}/${urlCode}`;
     const options = {
         originalUrl:
           "https://www.amazon.com/Samsung-Unlocked-Fingerprint-Recognition-Long-Lasting/dp/B082XYGR2C/ref=sr_1_12?keywords=Apple+iPhone+11+Pro&qid=1637315434&sr=8-12",
