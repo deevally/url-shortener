@@ -6,7 +6,7 @@ import {validateUrl} from '../models/url-shortener.model';
 
 
 router.post("/shorten-url",[ValidateMiddleware(validateUrl)] ,UrlController.ShortenUrl);
-router.get("/orginalurl/:urlId", UrlController.GetOriginalUrl);
+router.get("/:urlId", UrlController.GetOriginalUrl);
 router.delete("/url/:urlId", UrlController.DeleteUrl);
 
 export default router;
