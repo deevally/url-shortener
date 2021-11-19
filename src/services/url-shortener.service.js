@@ -69,7 +69,7 @@ async function ShortenUrl(originalUrl) {
   }
 }
 /**
- * @description Get origina Url 
+ * @description Get original Url 
  * @returns {boolean} true
  */
 

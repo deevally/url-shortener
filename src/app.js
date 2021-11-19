@@ -87,7 +87,7 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true }));
 // base api url
 
-app.use("", exposeService, routes);
+app.use("/url", exposeService, routes);
 
 // CATCH ALL INVALID ROUTES
 app.use("*", (req, res, next) => {
