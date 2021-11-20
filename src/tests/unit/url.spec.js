@@ -132,7 +132,7 @@ test("delete url by urlId", async()=>{
         shortenedUrl: shortUrl,
         urlId: urlCode,
       };
-  
+
       const url = await ShortUrl.create(options);
         const response = await UrlService.DeleteUrl(url.urlId);
         expect(response).toBeTruthy();

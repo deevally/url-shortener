@@ -11,7 +11,12 @@ A url shortener service
 > Step 3 
 - Run `npm run dev` to start the server on your local machine
 
+# TEST THE APPLICATION
 
+> Step 1
+- change NODE_ENV to 'test' in the .env file.
+> Step 2
+- Run `npm run test`
 # RUN THE APPLICATION LOCALLY ON DOCKER
 > Step 1 
 - Run `npm install`
