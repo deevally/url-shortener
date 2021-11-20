@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  urlshortenerapi:
+    image: quotech/urlshortenerapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+      LOG_FILE: url-shortener.log
+      LOG_LEVEL: info
+      LOG_LABEL: url-shortener
+    ports:
+      - 5000:5000
