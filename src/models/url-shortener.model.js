@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Joi from "joi";
+import Joi, { number } from "joi";
 import mongooseUniqueValidator from "mongoose-unique-validator";
 import mongoosePaginate from "mongoose-paginate-v2";
 const { Schema } = mongoose;
@@ -23,6 +23,11 @@ const UrlSchema = new Schema(
         unique: false,
       }
     },
+    originalUrlClicks: {
+      type: Number,
+      required: true,
+      default: 0,
+    },
     shortenedUrl: {
       type: String,
       required: true
@@ -41,6 +46,7 @@ const validateUrl = (k) => {
     urlId: Joi.string(),
     originalUrl: Joi.string(),
     shortenedUrl: Joi.string(),
+    originalUrlClicks: Joi.number(),
   
   });
 

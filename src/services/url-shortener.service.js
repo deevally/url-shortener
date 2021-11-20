@@ -37,7 +37,6 @@ async function ShortenUrl(originalUrl) {
 
   if (validUrl.isUri(originalUrl)) {
 
-    // const urlCode = shortid.generate();
     const urlCode = nanoid(10);
     const originalUrlLink = {
       originalUrl,
@@ -45,6 +44,8 @@ async function ShortenUrl(originalUrl) {
     const findUrl = await GenericRepository.findUrl(originalUrlLink);
 
     if (findUrl) {
+      findUrl.originalUrlClicks++;
+      findUrl.save();
       return findUrl;
     }
 

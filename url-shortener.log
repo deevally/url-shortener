@@ -398,3 +398,8 @@
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:05:08.306Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:08:41.081Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:08:41.541Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:09:49.260Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:09:49.435Z"}
+{"label":"url-shortener","level":"info","message":"Worker 29480 started","timestamp":"2021-11-20T18:22:26.817Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in test mode.","timestamp":"2021-11-20T18:22:26.839Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:22:26.858Z"}
