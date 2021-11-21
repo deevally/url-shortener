@@ -403,3 +403,11 @@
 {"label":"url-shortener","level":"info","message":"Worker 29480 started","timestamp":"2021-11-20T18:22:26.817Z"}
 {"label":"url-shortener","level":"info","message":"Server started on Port 5000 in test mode.","timestamp":"2021-11-20T18:22:26.839Z"}
 {"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-20T18:22:26.858Z"}
+{"label":"url-shortener","level":"info","message":"Worker 10774 started","timestamp":"2021-11-21T17:30:46.663Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in test mode.","timestamp":"2021-11-21T17:30:46.671Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on localhost","timestamp":"2021-11-21T17:30:46.746Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-11-21T17:31:04.995Z"}
+{"label":"url-shortener","level":"info","message":"Worker 10845 started","timestamp":"2021-11-21T17:31:10.568Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in development mode.","timestamp":"2021-11-21T17:31:10.574Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-11-21T17:31:23.578Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-11-21T17:40:30.078Z"}
