@@ -34,7 +34,7 @@ async function ShortenUrl(originalUrl) {
       ResponseCode.BAD_REQUEST
     );
   }
-
+console.log("url",url)
   if (validUrl.isUri(originalUrl)) {
 
     const urlCode = nanoid(10);

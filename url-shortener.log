@@ -430,3 +430,21 @@
 {"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T21:50:28.928Z"}
 {"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T21:50:28.929Z"}
 {"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T21:50:28.932Z"}
+{"label":"url-shortener","level":"info","message":"Primary 7305 is running","timestamp":"2021-12-01T22:06:36.823Z"}
+{"label":"url-shortener","level":"info","message":"Worker 7312 started","timestamp":"2021-12-01T22:06:40.335Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-12-01T22:06:40.357Z"}
+{"label":"url-shortener","level":"info","message":"Worker 7311 started","timestamp":"2021-12-01T22:06:40.442Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-12-01T22:06:40.484Z"}
+{"label":"url-shortener","level":"info","message":"Worker 7313 started","timestamp":"2021-12-01T22:06:40.537Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-12-01T22:06:40.570Z"}
+{"label":"url-shortener","level":"info","message":"Worker 7314 started","timestamp":"2021-12-01T22:06:40.681Z"}
+{"label":"url-shortener","level":"info","message":"Server started on Port 5000 in production mode.","timestamp":"2021-12-01T22:06:40.702Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-12-01T22:06:49.135Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-12-01T22:06:49.510Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-02.w2fdq.mongodb.net","timestamp":"2021-12-01T22:06:49.516Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-12-01T22:06:50.700Z"}
+{"label":"url-shortener","level":"info","message":"Connected to Database running on cluster0-shard-00-00.w2fdq.mongodb.net","timestamp":"2021-12-01T22:06:50.795Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T22:14:22.874Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T22:14:23.005Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T22:14:24.626Z"}
+{"label":"url-shortener","level":"info","message":"Shutting down DB Server","timestamp":"2021-12-01T22:14:24.679Z"}
