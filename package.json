@@ -34,6 +34,8 @@
     "nanoid": "^3.1.30",
     "node-mocks-http": "^1.10.1",
     "promise": "^8.1.0",
+    "swagger-autogen": "^2.13.0",
+    "swagger-ui-express": "^4.1.6",
     "valid-url": "^1.0.9",
     "winston": "^3.3.3",
     "xss-clean": "^0.1.1"
