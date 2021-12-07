@@ -31,5 +31,4 @@ A url shortener service
 -  docker run -it -p 5000:5000 --name url-api  quotech/urlshortenerapi:latest
 ___
 
-## PS:
--  I did purposely expose the [.env & Dockerfile] and also the whole payload from the shorten url request. This is so that whoever is testing the API gets to see it. Also if there was a frontend for this application, all they need to do is pick the shortened url property and display for the user on the frontend.
+
