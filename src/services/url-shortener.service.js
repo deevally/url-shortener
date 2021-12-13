@@ -28,7 +28,7 @@ async function ShortenUrl(originalUrl) {
   } else if (NODE_ENV === "production") {
     url = BASE_URL_PROD;
   }
-  if (!validUrl.isUri(url) || !validUrl.isUri(url) || !validUrl.isUri(url)) {
+  if (!validUrl.isUri(url)) {
     throw new ErrorResponse(
       StatusMessages.INVALID_BASE_URL,
       ResponseCode.BAD_REQUEST
