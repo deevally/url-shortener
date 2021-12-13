@@ -34,7 +34,6 @@ async function ShortenUrl(originalUrl) {
       ResponseCode.BAD_REQUEST
     );
   }
-console.log("url",url)
   if (validUrl.isUri(originalUrl)) {
 
     const urlCode = nanoid(10);
@@ -68,24 +67,7 @@ console.log("url",url)
     );
   }
 }
-/**
- * @description Get original Url 
- * @returns {boolean} true
- */
 
-async function GetUrl(urlId) {
-  const urlCode  = {
-    urlId,
-  }
-  const url = await GenericRepository.findUrl(urlCode);
-
-  if (!url)
-    throw new ErrorResponse(
-      StatusMessages.URL_NOT_FOUND,
-      ResponseCode.NOT_FOUND
-    );
-  return url.originalUrl;
-}
 
 /**
  * @description Delete Url Service
@@ -104,6 +86,25 @@ async function DeleteUrl(urlId) {
     );
   const deleteUrl = await GenericRepository.deleteRecord(ShortUrl, url.id);
   if (deleteUrl) return true;
+}
+
+/**
+ * @description Get original Url 
+ * @returns {boolean} true
+ */
+
+ async function GetUrl(urlId) {
+  const urlCode  = {
+    urlId,
+  }
+  const url = await GenericRepository.findUrl(urlCode);
+
+  if (!url)
+    throw new ErrorResponse(
+      StatusMessages.URL_NOT_FOUND,
+      ResponseCode.NOT_FOUND
+    );
+  return url.originalUrl;
 }
 export default {
   ShortenUrl,
